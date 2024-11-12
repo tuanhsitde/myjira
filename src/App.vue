@@ -1,17 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/logo.png" />
+  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <learning-method></learning-method>
+  <learning-computed></learning-computed>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LearningMethod from "@/components/LearningMethod.vue";
+import LearningComputed from "@/components/LearningComputed.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    LearningMethod,
+    LearningComputed,
+  },
+};
 </script>
 
 <style>
